@@ -18,7 +18,7 @@ public class Prescription {
     private Long id;
 
     @Column(name = "patient_name")
-    private String patientName; // Thêm mã/tên bệnh nhân theo yêu cầu bài 5
+    private String patientName;
 
     @Column(name = "doctor_name")
     private String doctorName;
